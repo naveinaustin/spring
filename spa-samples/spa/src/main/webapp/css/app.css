@@ -1,0 +1,368 @@
+.navbar {
+	background: white;
+	z-index: 1100;
+}
+
+.navbar .container {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+body { 
+	padding-top: 88px;
+	font-family: sans-serif;
+	/* overflow: hidden; */
+}
+
+.container-ticker {
+	top: 37px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.ticker-wrapper.has-js {
+	width: 100%;
+	border-radius: 0;
+	margin-top: 19px;
+	margin-bottom: 0;
+	/* margin-bottom: 20px;
+    margin-top: -14px; */
+}
+
+.navbar-collapse {
+	display: none;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    display: block;
+  }
+}
+
+.mobile-header .dropdown-menu {
+	float: right;
+    left: auto;
+    right: 15px;
+    top: 48px;
+}
+
+.content {
+	/* overflow: auto; */
+	/* background-image: url('../images/logo_new.jpg'); 
+	background-repeat: no-repeat; 
+	opacity:0.1;
+  	filter:alpha(opacity=10); */
+}
+
+.header_logo {
+	padding-right: 10px;
+}
+
+.social-media {
+	padding-right: 0;
+}
+
+.social-media > li {
+	 float: right;
+	 width:auto;
+}
+
+.social-media > li > a {
+	padding: 8px 2px;
+}
+
+.social-media > li > a:hover, .social-media > li > a:focus {
+	background-color: white;
+}
+
+.login{
+	 padding-left: 0;
+	 padding-right: 5px;
+	 width: auto;
+}
+
+.login > li {
+	 float: right;
+}
+
+.login > li > a {
+	 padding-left: 10px;
+	 padding-right: 10px;
+}
+
+#footer {
+	height: 40px;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	z-index: 1030px;
+	background: red none repeat scroll 0 0;
+	padding: 10px 0;
+}
+
+.points li {
+	padding-bottom: 20px;
+}
+.points li:first-child {
+	padding-top: 10px;
+}
+
+.boxes {
+	/* display: table; */
+	width:100%;
+}
+
+.boxes > div {
+	/* display: table-row; */
+}
+
+.boxes > div > div {
+	/* display: table-cell; */
+	border: 1px solid black;
+}
+
+.boxes > ul {
+	list-style-type: none;
+	box-sizing: border-box;
+}
+
+.boxes > ul > li {
+	 box-shadow: 0 1px 2px 0 #000;
+	border: 0 solid black;
+	margin: 5px;
+	text-align:center;
+	/* width: 32%;
+	height: 215px;
+	margin: 5px;
+	margin-left: 20px; */
+	padding: 20px 22px;
+	min-height: 215px;
+}
+
+.boxes > ul > li:first-child {
+	margin-left: -25px;
+}
+
+.boxes > ul > li > div:first-child {
+	margin-bottom: 25px;
+}
+
+.slick-dots li button::before {
+	font-size: 20px;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide__caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 15px;
+  min-height: 38px;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 50;
+}
+
+
+#slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(../js/jquery/slider/img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../js/jquery/slider/img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+        .boxes > ul > li {
+			margin-left: -25px;
+		}
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+      
+      .boxes > ul > li {
+			margin-left: -25px;
+		}
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+      
+         .boxes > ul > li {
+			margin-left: -25px;
+		}
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+ 
+.slideContainer {
+	border: 5px solid white;
+	box-shadow: 0px 2px 2px 0px #000;
+}
+
+.adSection {
+	border: 0;
+}
+
+.adSection ul {
+   box-sizing: border-box;
+    float: left;
+    list-style-type: none;
+    padding: 5px 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.adSection li {
+    /* border-top: 1px solid #d9d9d9; */
+/*     box-sizing: border-box;
+    display: table;
+    float: left;
+    margin-top: 20px;
+    padding: 5px;
+    padding-top: 8px;
+    width: 100%;
+    border: 2px solid white;
+	box-shadow: 0px 1px 1px 0px #000; */
+	
+	border: 5px solid white;
+    box-shadow: 0 1px 2px 0 #000;
+    margin-top: 25px;
+    padding: 5px;
+    
+}
+
+.adSection li:first-child {
+/*     border-top: medium none;
+    padding-top: 0; */
+    margin-top: 0;
+}
+
+.adSection li img {
+	max-width: 200px;
+}
